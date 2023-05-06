@@ -75,16 +75,26 @@ p{
 }
 
 
+
+/* CONTACTO */
+
 #iconosRedes{
     display: flex;
     justify-content: center;
 }
 
+#conttac{
+    width: 50%;
+}
 
 #imgIcon{
     width: 5rem;
     margin: 1rem;
-}
+} 
+
+/* .camma{
+    height: 50%;
+} */
 
 
 
