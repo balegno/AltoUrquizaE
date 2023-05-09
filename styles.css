@@ -82,16 +82,25 @@ p{
     display: flex;
     justify-content: center;
 }
-
+/* 
 #conttac{
     width: 50%;
-}
+} */
 
 #imgIcon{
     width: 5rem;
     margin: 1rem;
 } 
 
+.logos{
+    width: 5rem;
+    margin: 1rem;
+}
+
+.logosOrden{
+    display: flex;
+    justify-content: center;
+}
 /* .camma{
     height: 50%;
 } */
