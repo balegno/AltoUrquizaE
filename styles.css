@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background-color: #ffefcd;
+    background-color: #9eff66;
 }
 .animate__animated{
     animation-duration: 2s;
@@ -39,7 +39,7 @@ img{
 
 h1{
     font-family: 'Lato', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     margin: auto;
 }
 h2{
@@ -66,7 +66,7 @@ p{
 .frenteLogo{
     border: solid 2px black;
     border-radius: 3rem;
-    box-shadow: 8px 8px 5px;
+    box-shadow: 10px 10px 13px;
 
 }
 
@@ -74,19 +74,19 @@ p{
     margin: 3rem;
 }
 
-/* #cards{
-    display: flex;
-    align-content: center;
-} */
 
 #carouselExampleCaptions{
     margin: 5rem 2rem;
     border-radius: 2rem;
     border: solid 3px black;
+    box-shadow: 10px 10px 13px;
+
 }
 .cImg{
     border-radius: 1.7rem;
 }
+
+
 
 #caracteristicas{
     background-color: white;
@@ -128,6 +128,7 @@ p{
 .imgIcon{
     width: 5rem;
     margin: 1rem;
+    border-radius: 1rem;
 } 
 
 .logos{
