@@ -3,7 +3,9 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    
 }
+
 
 html{
     font-size: 62.5%;
@@ -12,12 +14,19 @@ html{
 body{
     background-color: #ffefcd;
 }
+.animate__animated{
+    animation-duration: 2s;
+}
 
 .inicio{
     display: flex;
     align-items: center;
     margin: 1rem 1.2rem;
 }
+.txtInit{
+    margin: 5rem;
+}
+
 
 img{
     width: 90%;
@@ -31,6 +40,7 @@ img{
 h1{
     font-family: 'Lato', sans-serif;
     font-size: 4rem;
+    margin: auto;
 }
 h2{
     font-family: 'Lato', sans-serif;
@@ -53,9 +63,29 @@ p{
     width: 10rem;
 }
 
-#cards{
+.frenteLogo{
+    border: solid 2px black;
+    border-radius: 3rem;
+    box-shadow: 8px 8px 5px;
+
+}
+
+.txDesc{
+    margin: 3rem;
+}
+
+/* #cards{
     display: flex;
     align-content: center;
+} */
+
+#carouselExampleCaptions{
+    margin: 5rem 2rem;
+    border-radius: 2rem;
+    border: solid 3px black;
+}
+.cImg{
+    border-radius: 1.7rem;
 }
 
 #caracteristicas{
@@ -75,19 +105,27 @@ p{
 }
 
 
+.qOfrecemos{
+    margin: 3rem;
+}
+
+.offre{
+    margin: 2rem;
+}
 
 /* CONTACTO */
 
-#iconosRedes{
+.iconosRedes{
     display: flex;
     justify-content: center;
+    margin: 4rem;
 }
 /* 
 #conttac{
     width: 50%;
 } */
 
-#imgIcon{
+.imgIcon{
     width: 5rem;
     margin: 1rem;
 } 
@@ -100,6 +138,7 @@ p{
 .logosOrden{
     display: flex;
     justify-content: center;
+    margin: 3rem;
 }
 /* .camma{
     height: 50%;
@@ -113,9 +152,12 @@ p{
 }
 
 .tex-foo{
-    color: #ffefcd;
+    color: #070501;
 }
 
-.martin{
-    color: blue;
+.martin, a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.3rem;
+
 }

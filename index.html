@@ -1,207 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Google Fonts -->
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    
-    
-    <!-- CSS BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <meta name="keywords" content="Departamentos, Alquiler, Mendoza, Booking, Vacaciones">
+    <meta name="description" content="¿Estas buscando el mejor descanso para tus vacaciones? Tenemos todo listo para que vengas a disfrutar. ¡Podes dejarnos tus datos para mas info!.">
 
-    <!-- CSS Propio -->
-    
-    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    rel="shortcut icon"
-    href="img/6 sin título_20230428214117.PNG"
-    type="image/x-icon"
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
     />
 
+    <!-- CSS BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- WOW -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <!-- CSS Propio -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="img/logo.PNG" type="image/x-icon"/>
+    
     <title>Alto Urquiza</title>
-</head>
+  </head>
+
+  <body>
+    <header>
+      <div class="inicio wow animate__animated animate__backInDown">
+        <img id="logo" src="img/logo.PNG" alt="LogoAltoUrquiza" />
+        <h1><strong>Alto Urquiza</strong></h1>
+      </div>
+      <div class="frente">
+        <img class="frenteLogo" src="img/frente+logo.jpeg" alt="" />
+      </div>
+
+    </header>
 
 
-
-<body>
-  <header>
-    <div class="inicio">
-        <img id="logo" src="img/logo.PNG" alt="LogoAltoUrquiza">
-        <h1>Alto Urquiza</h1>
+    <div class="txtInit wow animate__animated animate__fadeIn">
+      <h3 class="txDesc">
+        Alto Urquiza se encuentra en una zona de San Francisco del Monte
+        Guaymallen
+      </h3>
+      
+      <h3 class="txDesc">
+        Zona urbana a minutos de los principales accesos a la ciudad de Mendoza
+        y lugares turisticos de la provincia
+      </h3>
     </div>
-    <div class="frente">
-        <img src="img/frente+logo.jpeg" alt="">
-    </div>
-  </header>
-
-    <p>Alto urquiza se encuentra en una zona de San Francisco del Monte Guaymallen</p>
-    <p>Zona urbana a minutos de los principales accesos a la ciudad de Mendoza y lugares turisticos de la provincia </p>
-
 
     <!-- Carousel     -->
 
-
     <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/camaLinda.jpeg" class="d-block w-100" alt="Cama">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Comodidades</h3>
-              <p>Cama matrimonial, sillon, tv, etc. Nos encargamos de tu comodidad, vos la disfrutas.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/Cocinna.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Cocina</h3>
-              <p>Contamos con todos los utenilios necesarion, bien iluminada y funcional.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/cochera.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Cochera</h3>
-              <p>Amplia cochera para que el auto tambien duerma tranquilo.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
-
-
-
-      <!-- Que Ofrecemos -->
-
-      <div class="qOfrecemos">
-        <h3>Que Ofrecemos</h3>
-        <p>Depto totalmente equipado para un maximo de 3 personas, con vajilla completa, servicios de ropa de blanco (Sabanas, toallones y toallas). Tv Smart, Netflix, Tv por cable, WiFi, Cochera.
-        </p>
-
-
-        <div class="logosOrden">
-          <div>
-            <img src="img/tv.svg" class="logos" alt="">
-            <p>Smart TV</p>
-          </div>
-          
-          <div>
-            <img src="img/wifi.svg" class="logos" alt="">
-            <p>Wifi</p>
-          </div>
-
-          <div>
-            <img src="img/car-front.svg" class="logos" alt="">
-            <p>Cochera</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/camaLinda.jpeg" class="d-block w-100 cImg" alt="Cama" />
+          <div class="carousel-caption d-md-block">
+            <h3>Comodidades</h3>
+            <p>
+              Cama matrimonial, sillon, tv, etc. Nos encargamos de tu comodidad,
+              vos la disfrutas.
+            </p>
           </div>
         </div>
-          
-        <div class="logosOrden">
-          <div>>
-            <img src="img/cup-hot.svg" class="logos" alt="">
-            <p>Vajilla</p>
-          </div>
-        
-          <div>
-            <img src="img/back.svg" class="logos" alt="">
-            <p>Blanco</p>
+        <div class="carousel-item">
+          <img src="img/Cocinna.jpeg" class="d-block w-100 cImg" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h3>Cocina</h3>
+            <p>
+              Contamos con todos los utenilios necesarion, bien iluminada y
+              funcional.
+            </p>
           </div>
         </div>
-      </div>
-
-
-      <!-- Map -->
-
-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6698.51927964871!2d-68.79651765188977!3d-32.917737776107266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0c200b9e8877%3A0x38ea0632d40d21a8!2sGuaymall%C3%A9n%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1683407389387!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-      <!-- Fin Map -->
-
-      <!--     
-    <h2>Contamos con</h2>
-    <div id="cards">
-
-        <div id="caracteristicas">
-            <img class="imgCard" src="img/cochera.jpeg" alt="cochera">
+        <div class="carousel-item">
+          <img src="img/cochera.jpeg" class="d-block w-100 cImg" alt="..." />
+          <div class="carousel-caption d-md-block">
             <h3>Cochera</h3>
             <p>Amplia cochera para que el auto tambien duerma tranquilo.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Que Ofrecemos -->
+
+    <div class="qOfrecemos">
+      <h2 class="offre wow animate__animated animate__fadeIn"><strong>Que Ofrecemos</strong></h2>
+      <h3 class="wow animate__animated animate__fadeIn">
+        Depto totalmente equipado para un maximo de 3 personas, con vajilla
+        completa, servicios de ropa de blanco (Sabanas, toallones y toallas). Tv
+        Smart, Netflix, Tv por cable, WiFi, Cochera.
+      </h3>
+
+      <div class="logosOrden">
+        <div class="wow animate__animated animate__bounceInLeft">
+          <img src="img/tv.svg" class="logos" alt="" />
+          <p>Smart TV</p>
         </div>
 
-        <div id="caracteristicas">
-            <img class="imgCard" src="img/cama.jpeg" alt="cama">
-            <h3>Comodidades</h3>
-            <p>Cama matrimonial, sillon, tv, etc. Nos encargamos de tu comodidad, vos la disfrutas.</p>
+        <div class="wow animate__animated animate__bounceInDown">
+          <img src="img/wifi.svg" class="logos" alt="" />
+          <p>Wifi</p>
         </div>
 
-        <div id="caracteristicas">
-            <img class="imgCard" src="img/cocina.jpeg" alt="cocina">
-            <h3>Cocina</h3>
-            <p>Contamos con todos los utenilios necesarion, bien iluminada y funcional.</p>
+        <div class="wow animate__animated animate__bounceInRight">
+          <img src="img/car-front.svg" class="logos" alt="" />
+          <p>Cochera</p>
         </div>
-    </div> -->
+      </div>
+
+      <div class="logosOrden">
+        <div class="wow animate__animated animate__bounceInLeft">
+          <img src="img/cup-hot.svg" class="logos" alt="" />
+          <p>Vajilla</p>
+        </div>
+
+        <div class="wow animate__animated animate__bounceInRight">
+          <img src="img/back.svg" class="logos" alt="" />
+          <p>Blanco</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6698.51927964871!2d-68.79651765188977!3d-32.917737776107266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0c200b9e8877%3A0x38ea0632d40d21a8!2sGuaymall%C3%A9n%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1683407389387!5m2!1ses!2sar"
+      width="100%"
+      height="350"
+      class="wow animate__animated animate__fadeIn"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <!-- Fin Map -->
 
 
     <div id="conttac">
-        <div>
-            <h2 class="HH">Contáctanos</h2>
-            <h3 class="HHH">Esteban Dominetti</h3>
-            <p class="PC">Número telefonico</p>
-            <p class="PC">(+54) 2616-166877</p>
-    
-        </div>
-        
-        <div id="iconosRedes">
-            
+      <div class="wow animate__animated animate__fadeIn">
+        <h2 class="offre"><strong>Contáctanos</strong></h2>
+        <h3 class="offre"><strong>Esteban Dominetti</strong></h3>
+        <p><strong> Número telefonico</strong></p>
+        <p><strong>(+54) 2616-166877</strong></p>
+      </div>
 
-                <a target="_blank" href="https://www.instagram.com/altourquiza8/"><img id="imgIcon" src="img/instagram.png" alt="instagram"></a>
+      <div class="iconosRedes wow animate__animated animate__fadeIn">
+        <a target="_blank" href="https://www.instagram.com/altourquiza8/"
+          ><img class="imgIcon" src="img/instagram.png" alt="instagram"
+        /></a>
 
-                <a target="_blank" href="http://"><img id="imgIcon" src="img/facebook.png" alt="facebook"></a>
-            
+        <a target="_blank" href="http://"
+          ><img class="imgIcon" src="img/facebook.png" alt="facebook"
+        /></a>
 
-                <a target="_blank" href="https://www.airbnb.com.ar/rooms/687123361493947239?adults=1&children=0&enable_m3_private_room=false&infants=0&pets=0&check_in=2023-05-01&check_out=2023-05-06&federated_search_id=5248a37b-2b60-41ef-8019-122ff2bba583&source_impression_id=p3_1682811403_JH5R7%2FsD%2BjF0Dkbt"><img id="imgIcon" src="img/airbnb.png" alt="airbnb"></a>
-                
-                <a target="_blank" href="https://www.booking.com/hotel/ar/altourquiza8.es.html?aid=376374&label=esrow-OtlvhU2CXhSVxek50Z_17wS410489931081%3Apl%3Ata%3Ap1%3Ap22.563.000%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcUSe6BbHz0Ad_yDShFFSHQ&sid=2e0dbc4f150afcd649d448a10d01c374&atlas_src=sr_iw_btn;checkin=2023-05-02;checkout=2023-05-05;dest_id=-1003869;dest_type=city;dist=0;group_adults=2;group_children=0;highlighted_blocks=984417001_370855336_2_0_0;no_rooms=1;room1=A%2CA;sb_price_type=total;type=total;ucfs=1&"><img id="imgIcon" src="img/booking.png" alt="booking"></a>
-            
-        </div>
+        <a
+          target="_blank"
+          href="https://www.airbnb.com.ar/rooms/687123361493947239?adults=1&children=0&enable_m3_private_room=false&infants=0&pets=0&check_in=2023-05-01&check_out=2023-05-06&federated_search_id=5248a37b-2b60-41ef-8019-122ff2bba583&source_impression_id=p3_1682811403_JH5R7%2FsD%2BjF0Dkbt"
+          ><img class="imgIcon" src="img/airbnb.png" alt="airbnb"
+        /></a>
 
-        
+        <a
+          target="_blank"
+          href="https://www.booking.com/hotel/ar/altourquiza8.es.html?aid=376374&label=esrow-OtlvhU2CXhSVxek50Z_17wS410489931081%3Apl%3Ata%3Ap1%3Ap22.563.000%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcUSe6BbHz0Ad_yDShFFSHQ&sid=2e0dbc4f150afcd649d448a10d01c374&atlas_src=sr_iw_btn;checkin=2023-05-02;checkout=2023-05-05;dest_id=-1003869;dest_type=city;dist=0;group_adults=2;group_children=0;highlighted_blocks=984417001_370855336_2_0_0;no_rooms=1;room1=A%2CA;sb_price_type=total;type=total;ucfs=1&"
+          ><img class="imgIcon" src="img/booking.png" alt="booking"
+        /></a>
+      </div>
     </div>
-        
-        <footer id="footDatos">
-            <p class="tex-foo">Derechos reservados - Alto Urquiza</p>
-            <p class="tex-foo">by Esteban Dominetti</p>
-            <p class="tex-foo martin">Pagina desarrollada por Martin Balegno</p>
-        </footer>
-        
+
+    <footer id="footDatos">
+      <div class="wow animate__animated animate__fadeIn">
+      <p class="tex-foo">Derechos reservados - Alto Urquiza</p>
+      <p class="tex-foo">by Esteban Dominetti</p>
+      <p class="tex-foo martin">
+        Pagina desarrollada por
+        <a href="https://www.instagram.com/balegno/">Martin Balegno</a>
+      </p>
+    </div>
+    </footer>
+
+    <!-- WOW  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script><script>new WOW().init();</script>
 
 
     <!--Script de Bootstrap-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="class.js"></script>
-
-
-</body>
+  </body>
 </html>
