@@ -48,6 +48,7 @@ h3{
     font-family: 'Lato', sans-serif;
     font-size: 2.3rem;
     text-align: center;
+    margin: 7rem 1rem;
 }
 p{
     font-size: 1.8rem;
@@ -108,6 +109,10 @@ p{
 
 .offre{
     margin: 2rem;
+}
+
+.contact{
+    margin: 4rem;
 }
 
 /* CONTACTO */
